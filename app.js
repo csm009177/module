@@ -1,13 +1,13 @@
-const add = require("./module/add.js");
-const minos = require("./module/minos.js");
-const multi = require("./module/multi.js");
-const div = require("./module/div.js");
+const add = require("./mod/add.js");
+const minos = require("./mod/minos.js");
+const multi = require("./mod/multi.js");
+const div = require("./mod/div.js");
 
 const calc = {
-  add : require("./module/add.js"),
-  minos : require("./module/minos.js"),
-  multi: require("./module/multi.js"),
-  div : require("./module/div.js"),
+  add : require("./mod/add.js"),
+  minos : require("./mod/minos.js"),
+  multi: require("./mod/multi.js"),
+  div : require("./mod/div.js"),
 }
 
 console.log("더하기", add(1,2));
